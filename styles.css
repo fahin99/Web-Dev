@@ -1,0 +1,103 @@
+/* Basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsteelblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding:1rem;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+.container{
+    background-color: rgba(237, 230, 232, 0.633);
+    border-radius:1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.28);
+    width:100%;
+    min-width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Scroe */
+.screen{
+    display:none;
+    padding:2rem;
+    text-align: center;
+}
+.screen-active{
+    display:block;
+}
+
+#start-screen h1{
+    color:rgb(46, 26, 2);
+    margin-bottom:20px;
+    font-size: 2.5rem;
+}
+
+.quiz-header{
+    margin-bottom:2rem;
+}
+#question-text{
+    color:thistle;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quiz-info{
+    display:flex;
+    justify-content: center;
+    color:azure;
+    margin-bottom: 10px;
+}
+
+.answers-container{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.answer-btn{
+    background-color: lemonchiffon;
+    color:darkslategrey;
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor:pointer;
+    text-align:left;
+}
+.answer-btn:hover{
+    background-color: lightgoldenrodyellow;
+    border-color:blanchedalmond
+}
+.answer-btn.correct{
+    background-color: lightgreen;
+    border-color:burlywood;
+    color:darkgreen;
+}
+.progress-bar{
+    height:10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top:20px
+}
+
+.progress{
+    height:100%;
+    background-color: brown;
+    width:0%;
+    transition: width 0.3s ease;
+}
+
+/* Result */
+#result-screen h2{
+    
+}
