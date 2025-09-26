@@ -98,6 +98,57 @@ body{
 }
 
 /* Result */
-#result-screen h2{
-    
+#result-screen h1{
+    color:rgb(156, 21, 21);
+    margin-bottom:30px;
+}
+
+.result-info{
+    background-color: #d5e5f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.result-info p{
+    font-size:1.2rem;
+    font-weight: 600;
+    color: rgb(249, 145, 145);    
+}
+
+button{
+    background-color: #f47a75;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #cd2d2d;
+}
+
+/* Responsive design */
+@media (max-width:500px){
+    /*when we hit <=500px, implement the styles below*/
+    .screen{
+        padding: 1rem;
+    }
+    #start-screen h1{
+        font-size: 2rem;
+    }
+    #question-text{
+        font-size:1.3rem;
+    }
+    .answer-btn{
+        padding:12px;
+    }
+    button{
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
 }
