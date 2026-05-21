@@ -36,3 +36,15 @@
   cursor: pointer;
   box-shadow: 2px 4px 5px;
 } */
+
+.student{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
+  padding: 10px;
+  border: 1px solid rgba(180, 210, 220, 0.884);
+  text-shadow: 1px solid rgba(13, 69, 62, 0.884);
+}
+
+.student p{
+  margin: 0;
+}
