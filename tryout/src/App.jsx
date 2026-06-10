@@ -5,6 +5,7 @@ import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
 import Button1 from "./Button1.jsx";
 import Student from "./Student.jsx";
+import Greeting from "./Greeting.jsx";
 function App() {
   return(
     <>
@@ -12,8 +13,9 @@ function App() {
       {/* <Food/>
       <Card/>
       <Button/> */}
+      <Greeting name="Brown" isLoggedIn={true}/>
       <Student name="Brown" age={10} isStudent={true}/>
-      <Student name="Bonito" age={20} isStudent={false}/>
+      <Greeting name="Bonito" isLoggedIn={false}/>
       <p/>
       <Button1/>
       <Footer/>
