@@ -9,4 +9,13 @@ function Greeting(props){
     const login_prompt=<h2 className="login_prompt">Kindly login first</h2>
     return(props.isLoggedIn ? wc_msg : login_prompt);
 }
+
+Greeting.prototypes={
+    isLoggedIn: ProtoTypes.bool,
+    name: ProtoTypes.string,
+}
+Greeting.defaultProps={
+    isLoggedIn: false,
+    name: "Guest",
+}
 export default Greeting;
