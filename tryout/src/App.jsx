@@ -15,7 +15,7 @@ function App() {
       <Button/> */}
       <Greeting name="Brown" isLoggedIn={true}/>
       <Student name="Brown" age={10} isStudent={true}/>
-      <Greeting name="Bonito" isLoggedIn={false}/>
+      <Greeting/>
       <p/>
       <Button1/>
       <Footer/>
