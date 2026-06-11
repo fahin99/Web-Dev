@@ -1,5 +1,5 @@
 .btn{
-  background-color: #0e3b4d;
+  background-image: linear-gradient(37deg, #0e3b4d, #186868);
   color: rgb(202, 228, 235);
   padding: 10px 20px;
   border-radius: 10px;
@@ -7,3 +7,8 @@
   cursor: pointer;
   box-shadow: 2px 4px 5px;
 } 
+
+.btn:hover{
+  background-image: linear-gradient(37deg, #072430, #115252);
+  color: rgb(177, 207, 215);
+}

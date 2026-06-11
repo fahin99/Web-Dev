@@ -8,8 +8,12 @@ function Button1(){
         border: "none",
         cursor: "pointer",
         boxShadow: "2px 2px 2px",
+        display: "block",
+        margin: "0 auto",
     }
-    return(<button style={styles}>Click me</button>);
+    const handleClick = () => console.log("Clicked!!");
+    // const handleClick2
+    return(<button style={styles} onClick={handleClick}>Click me</button>);
 }
 
 export default Button1

@@ -6,20 +6,22 @@ import Button from "./Button/Button.jsx";
 import Button1 from "./Button1.jsx";
 import Student from "./Student.jsx";
 import Greeting from "./Greeting.jsx";
+import List from "./List.jsx";
 function App() {
   return(
-    <>
+    <div className="app_desc">
       <Header/>
       {/* <Food/>
       <Card/>
       <Button/> */}
+      <List/>
       <Greeting name="Brown" isLoggedIn={true}/>
       <Student name="Brown" age={10} isStudent={true}/>
       <Greeting/>
       <p/>
-      <Button1/>
+      <Button/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

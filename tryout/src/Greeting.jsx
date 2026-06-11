@@ -9,7 +9,7 @@ function Greeting(props){
     // else return(<h2 className="login_prompt">Kindly login first</h2>);
 
     const wc_msg=<h2 className="wc_msg">Welcome, {props.name}</h2>
-    const login_prompt=<h2 className="login_prompt">Kindly login first, {name}</h2>
+    const login_prompt=<h2 className="login_prompt">Kindly login first {name}</h2>
     return(props.isLoggedIn ? wc_msg : login_prompt);
 }
 
